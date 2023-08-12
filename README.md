@@ -14,3 +14,14 @@ Additional code:
 add_noise.py - adding noise to the signal.  
 add_signal.py - adding a sine wave to the signal.
 
+BPSK signal and BPSK signal with cosine filter.
+![BPSK and BPSK with filter](https://github.com/kkuznetzov/BPSK-MODULATOR/blob/master/IMG/BPSK.png)
+
+BPSK signal spectrum.
+
+![BPSK signal spectrum](https://github.com/kkuznetzov/BPSK-MODULATOR/blob/master/IMG/BPSK_SPECTRUM.png)
+
+
+BPSK signal with cosine filter spectrum
+
+![BPSK signal with cosine filter spectrum](https://github.com/kkuznetzov/BPSK-MODULATOR/blob/master/IMG/BPSK_FILTER_SPECTRUM.png)

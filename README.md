@@ -25,3 +25,7 @@ BPSK signal spectrum.
 BPSK signal with cosine filter spectrum
 
 ![BPSK signal with cosine filter spectrum](https://github.com/kkuznetzov/BPSK-MODULATOR/blob/master/IMG/BPSK_FILTER_SPECTRUM.png)
+
+BPSK receiver debug output
+
+![BPSK receiver debug output](https://github.com/kkuznetzov/BPSK-MODULATOR/blob/master/IMG/bpsk_receive_debug.png)

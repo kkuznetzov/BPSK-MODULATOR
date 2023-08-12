@@ -21,7 +21,6 @@ sdist/
 var/
 TEST/
 OLD/
-IMG/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/

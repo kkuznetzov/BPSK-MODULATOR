@@ -209,7 +209,7 @@ bit_value_change_lock_threshold = preamble_bit_size // 2
 bit_digital_value = 0
 bit_digital_previous_value = 0
 
-# The value of the received bit and the previous bit value
+# The value of the filter counter in which the preamble is captured
 # Значение счётчика фильтра в которой захвачена преамбула
 bit_digital_average_buffer_counter_value = 0
 

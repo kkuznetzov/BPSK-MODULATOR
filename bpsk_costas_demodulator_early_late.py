@@ -205,6 +205,7 @@ bit_signal_el_value_error = 0
 bit_signal_el_time_hold = round(bit_samplerate_period_per_bit / 2)
 bit_signal_el_time_early = round(bit_signal_el_time_hold - bit_samplerate_period_per_bit / 4)
 bit_signal_el_time_late = round(bit_signal_el_time_hold + bit_samplerate_period_per_bit / 4)
+bit_signal_el_error_threshold = 0.05
 
 # To search for a preamble
 # Preamble capture flag, amplitude rise (maximum) flag, phase (bit sign) change counter
@@ -431,7 +432,7 @@ for i in range(int(input_signal_length)):
 
             # Continuously update the mid-bit time value
             # Постоянно обновляем значение середины бита
-            if bit_signal_el_value_error == 0:
+            if abs(bit_signal_el_value_error) <= bit_signal_el_error_threshold:
                 bit_digital_average_buffer_counter_value = round(bit_signal_el_time_hold)
 
         # Debug
